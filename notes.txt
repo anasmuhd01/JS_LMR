@@ -1,0 +1,36 @@
+JavaScript
+------------
+
+Its the default programming language of HTML for developing dynamic web pages
+Brendern Eich -1995
+current version - ES16
+JavaScript Engine : a software component [c,c++ program ] that exist in js runtime environment
+    which executes js codes
+ECMA:- Europian Copmuter Manufactures Association (ES - ECMA Script)
+
+V8 - Developed by google, for chromium based browsers and node.js
+SPiderMonkey - Developed by Mozilla for firefox
+JavaScriptCore - Developed by Apple for safari
+chakra - Developed by microsoft for Internet Explorer
+
+Node JS - JS runtime environment
+
+Features
+-----------------------
+Dynamically Typed
+lightweight language 
+Interpreted Language 
+Single threaded
+Asynchronous functionalities
+cross platform support
+object oriented programming language
+event driven programming
+first class functions
+case sensitive
+
+
+data types 
+Number, String, Array, object, Date, Regex, Set etc
+
+functions :
+block of statemetnts defined for achieving specific task 
