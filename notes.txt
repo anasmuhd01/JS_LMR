@@ -34,3 +34,55 @@ Number, String, Array, object, Date, Regex, Set etc
 
 functions :
 block of statemetnts defined for achieving specific task 
+
+Number:
+-------
+casting
+    parseInt()
+    parseFloat()
+    
+Nan : not a number -> result of operation of arithmetic withot number
+infinity
+Number()
+
+
+STRING METHODS
+
+The charAt() method returns the character at a specified index (position) in a string: 
+concat() joins two or more strings:
+String at - The at() method returns the character at a specified index (position) in a string.
+uppercase 
+lowercase
+trim
+repeat
+replace
+split
+includes
+
+ARRAY =>
+--------------------
+if array is created like
+
+a = [1,2,3,4]
+
+here a.length is 4
+and a[5] =6 is added between the index there exist an empty object then a[5] is added after it
+
+
+
+Array toString() 
+Array at()
+Array join()
+Array pop()
+Array push()
+Array shift()
+Array unshift()
+Array isArray()
+Array delete()
+Array concat()
+Array copyWithin()
+Array flat()
+Array slice()
+Array splice()
+Array toSpliced() 
+
