@@ -86,3 +86,11 @@ Array slice()
 Array splice()
 Array toSpliced() 
 
+
+callbackfunction : a function which is passed as an argument to another function.
+    it will execute as a consequence of main function 
+
+Array Iteration METHODS
+
+forEach(callbackfunction)
+
