@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function clickI() {
+            document.getElementById('hh1').textContent = 'Welcome'
+            document.querySelector('#hh1').style.backgroundColor = 'yellow'
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="hh1" class="c1"> GET ELEMENT</h1>
+    <button onclick="clickI()">click</button>
+    <p>hello world</p>
+    <p class="c1">hello earth</p>
+
+    <ul id="listitems">
+
+    </ul>
+
+    <script>
+        
+        const cars = ['toyota', 'bens', 'suzuki', 'bmw']
+
+        let listitems = ""
+        cars.forEach(item => {
+            listitems += `<li>${item}</li>`
+        })
+
+        document.querySelector('#listitems').innerHTML = listitems
+
+    </script>
+
+
+</body>
+
+</html>

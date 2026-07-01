@@ -4,6 +4,7 @@ try {
     console.log(res)
 
 }
+// catch(error)
 catch {
     console.log('error occured')
 
