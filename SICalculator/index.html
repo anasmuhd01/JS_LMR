@@ -16,11 +16,18 @@
 </head>
 
 <body>
-
-    <div id="pcard" class="container-fluid d-flex justify-content-around flex-wrap gap-3">
-
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="w-50 border-2 p-2 shadow bg-light">
+            <h2 class="text-center my-2">Simple Intrest Calculator</h2>
+            <input id="inp1" type="text" class="form-control mb-3" placeholder="enter principle amount">
+            <input id="inp2" type="text" class="form-control mb-3" placeholder="enter intrest rate">
+            <input id="inp3" type="text" class="form-control mb-3" placeholder="enter number of years">
+            <div class="d-grid">
+                <button onclick="SimpleIntrest()" class="btn btn-success">Calculate</button>
+            </div>
+            <h2> Amount : <span id="result"></span></h2>
+        </div>
     </div>
-
     <script src="./script.js"></script>
 </body>
 
